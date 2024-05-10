@@ -24,7 +24,7 @@ while True:
         if second_number != 0:
             result = first_number / second_number
         else:
-            print("\033[91m" + "Division by zero is prohibited!" + "\033[0m")
+            print("\033[91m" + "Error - Division by zero is prohibited!" + "\033[0m")
     print(result)
 
     answer = input("Do you want to continue? (y/n) ")
